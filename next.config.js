@@ -2,13 +2,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  experimental: {
+    appDir: true,
+  },
   reactStrictMode: true,
   swcMinify: true,
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  experimental: {
-    turbo: true,
   },
   compiler: {
     styledComponents: true,
