@@ -1,0 +1,99 @@
+[15:47:10.999] Cloning github.com/frincones/verceltdxfinal (Branch: main, Commit: b7979a8)
+[15:47:11.947] Cloning completed: 948.000ms
+[15:47:12.267] Found .vercelignore
+[15:47:12.298] Removed 4 ignored files defined in .vercelignore
+[15:47:15.209] Restored build cache from previous deployment (D5eSsThmHon9x7E4jrzEkYd83U5b)
+[15:47:15.337] Running build in Washington, D.C., USA (East) – iad1
+[15:47:16.405] Running "vercel build"
+[15:47:16.808] Vercel CLI 41.4.1
+[15:47:17.284] Warning: Detected "engines": { "node": ">=18" } in your `package.json` that will automatically upgrade when a new major Node.js Version is released. Learn More: http://vercel.link/node-version
+[15:47:17.298] Installing dependencies...
+[15:47:18.790] 
+[15:47:18.790] up to date in 1s
+[15:47:18.791] 
+[15:47:18.791] 150 packages are looking for funding
+[15:47:18.791]   run `npm fund` for details
+[15:47:18.824] Detected Next.js version: 15.2.4
+[15:47:18.828] Running "npm run build"
+[15:47:18.947] 
+[15:47:18.948] > next-jampack-classic@1.0.1 build
+[15:47:18.948] > next build
+[15:47:18.948] 
+[15:47:19.623]  ⚠ Invalid next.config.js options detected: 
+[15:47:19.623]  ⚠     Expected object, received boolean at "experimental.turbo"
+[15:47:19.623]  ⚠     Unrecognized key(s) in object: 'swcMinify'
+[15:47:19.624]  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+[15:47:19.685]    ▲ Next.js 15.2.4
+[15:47:19.685] 
+[15:47:19.765]    Creating an optimized production build ...
+[15:47:37.912]  ✓ Compiled successfully
+[15:47:37.917]    Skipping linting
+[15:47:37.917]    Checking validity of types ...
+[15:47:38.018]    Collecting page data ...
+[15:47:43.183]    Generating static pages (0/46) ...
+[15:47:44.649]    Generating static pages (11/46) 
+[15:47:44.898]    Generating static pages (22/46) 
+[15:47:45.427]    Generating static pages (34/46) 
+[15:47:45.708]  ✓ Generating static pages (46/46)
+[15:47:46.370]    Finalizing page optimization ...
+[15:47:46.375]    Collecting build traces ...
+[15:47:53.551] 
+[15:47:53.555] Route (app)                                 Size  First Load JS
+[15:47:53.555] ┌ ○ /_not-found                            141 B         101 kB
+[15:47:53.555] ├ ○ /apps/blog/add-new-post              1.19 kB         229 kB
+[15:47:53.555] ├ ○ /apps/blog/post-detail               2.71 kB         231 kB
+[15:47:53.556] ├ ○ /apps/blog/posts                     6.74 kB         166 kB
+[15:47:53.556] ├ ○ /apps/calendar                        205 kB         424 kB
+[15:47:53.556] ├ ○ /apps/chat-popup/chat-bot            1.67 kB         139 kB
+[15:47:53.556] ├ ○ /apps/chat-popup/direct-message      8.27 kB         149 kB
+[15:47:53.557] ├ ○ /apps/chat/chats                     8.66 kB         192 kB
+[15:47:53.557] ├ ○ /apps/chat/contact                   6.57 kB         186 kB
+[15:47:53.557] ├ ○ /apps/chat/groups                    6.56 kB         169 kB
+[15:47:53.557] ├ ○ /apps/contact/contact-cards          8.77 kB         205 kB
+[15:47:53.557] ├ ○ /apps/contact/contact-list           7.24 kB         179 kB
+[15:47:53.557] ├ ○ /apps/contact/edit-contact           5.62 kB         200 kB
+[15:47:53.557] ├ ○ /apps/email                          11.2 kB         164 kB
+[15:47:53.557] ├ ○ /apps/file-manager/grid-view         6.15 kB         180 kB
+[15:47:53.558] ├ ○ /apps/file-manager/list-view         4.13 kB         164 kB
+[15:47:53.558] ├ ○ /apps/gallery                        32.7 kB         177 kB
+[15:47:53.558] ├ ○ /apps/integrations/all-apps          5.33 kB         151 kB
+[15:47:53.558] ├ ○ /apps/integrations/app-detail        21.6 kB         173 kB
+[15:47:53.558] ├ ○ /apps/integrations/integration       5.03 kB         150 kB
+[15:47:53.558] ├ ○ /apps/invoices/create-invoice        10.6 kB         170 kB
+[15:47:53.558] ├ ○ /apps/invoices/invoice-list          5.29 kB         152 kB
+[15:47:53.558] ├ ○ /apps/invoices/invoice-preview       6.09 kB         151 kB
+[15:47:53.558] ├ ○ /apps/invoices/invoice-templates     3.72 kB         152 kB
+[15:47:53.558] ├ ○ /apps/scrumboard/kanban-board        15.6 kB         301 kB
+[15:47:53.558] ├ ○ /apps/scrumboard/pipeline            9.52 kB         256 kB
+[15:47:53.558] ├ ○ /apps/scrumboard/project-board       7.04 kB         173 kB
+[15:47:53.558] ├ ○ /apps/todo/gantt                     23.1 kB         232 kB
+[15:47:53.558] ├ ○ /apps/todo/task-list                 14.8 kB         291 kB
+[15:47:53.558] ├ ○ /auth/lock-screen                    2.44 kB         112 kB
+[15:47:53.558] ├ ○ /auth/login                           4.2 kB         117 kB
+[15:47:53.559] ├ ○ /auth/login/classic                  4.17 kB         117 kB
+[15:47:53.559] ├ ○ /auth/login/simple                   4.11 kB         133 kB
+[15:47:53.559] ├ ○ /auth/reset-password                 2.93 kB         116 kB
+[15:47:53.559] ├ ○ /auth/signup                         4.57 kB         137 kB
+[15:47:53.559] ├ ○ /auth/signup/classic                 3.59 kB         136 kB
+[15:47:53.559] ├ ○ /auth/signup/simple                  4.68 kB         153 kB
+[15:47:53.559] ├ ○ /dashboard                            194 kB         399 kB
+[15:47:53.559] ├ ○ /error-404                           2.94 kB         113 kB
+[15:47:53.559] ├ ○ /error-503                           4.23 kB         129 kB
+[15:47:53.559] ├ ○ /profile                             35.6 kB         192 kB
+[15:47:53.559] ├ ○ /profile/account                     6.49 kB         143 kB
+[15:47:53.559] └ ○ /profile/edit-profile                4.02 kB         123 kB
+[15:47:53.560] + First Load JS shared by all             101 kB
+[15:47:53.560]   ├ chunks/1684-151fb7dbf41383a5.js      45.8 kB
+[15:47:53.560]   ├ chunks/4bd1b696-8247629bf546ee9d.js  53.3 kB
+[15:47:53.560]   └ other shared chunks (total)          2.24 kB
+[15:47:53.560] 
+[15:47:53.560] 
+[15:47:53.561] ○  (Static)  prerendered as static content
+[15:47:53.561] 
+[15:47:53.792] Traced Next.js server files in: 81.37ms
+[15:47:53.947] Created all serverless functions in: 154.669ms
+[15:47:54.017] Collected static files (public/, static/, .next/static): 62.963ms
+[15:47:54.609] Build Completed in /vercel/output [37s]
+[15:47:54.888] Deploying outputs...
+[15:48:02.177] 
+[15:48:02.475] Deployment completed
