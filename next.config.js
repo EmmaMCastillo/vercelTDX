@@ -1,12 +1,10 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
   experimental: {
-    appDir: true,
+    appDir: true
   },
   reactStrictMode: true,
-  swcMinify: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
