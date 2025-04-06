@@ -16,6 +16,15 @@ const nextConfig = {
   images: {
     domains: ['localhost'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/dashboard',
+        permanent: false,
+      },
+    ];
+  },
   webpack(config, { isServer }) {
     if (!isServer) {
       config.resolve.fallback = {
